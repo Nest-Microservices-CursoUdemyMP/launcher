@@ -21,7 +21,7 @@ services:
 
 
   products-ms:
-    build: ./products-ms
+    build: ./products-microservices
     volumes:
       - ./products-ms/src:/usr/src/app/src
     command: npm run start:dev
